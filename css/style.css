@@ -1,0 +1,37 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+}
+.navegador{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(245, 216, 221);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    color: rgb(102, 44, 54);
+}
+.navegador ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 0rem 7rem;
+    transition: 0.5s;
+}
+.navegador li:hover{
+    transform: scale(1.04);
+    transition: 0.5;
+}
+.navegador a{
+    text-decoration: none;
+    color:rgb(102, 44, 54);
+    font-weight: 200;
+}
+.navegador a:hover{
+    color: rgb(202, 122, 135);
+}

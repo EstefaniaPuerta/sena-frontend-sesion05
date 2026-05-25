@@ -1,0 +1,61 @@
+body{
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-size: 1rem;
+    flex-direction: column;
+}
+.contenedor{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: fit-content;
+    margin: 50px auto;
+}
+.card,.card2,.card3,.card4,.card5,.card6{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(241, 213, 217);
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 8%;
+    color: rgb(102, 44, 54);
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px rgb(180, 179, 179);
+}
+h2{
+    font-size: 1.2rem;
+}
+.card:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover{
+    transition: 0.5s;
+    transform: scale(1.04);
+
+}
+.helado{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.botonh{
+    background-color: rgb(206, 135, 146);
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 8%;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.botonh:hover{
+    background-color: rgb(207, 96, 115);
+    cursor: pointer;
+}

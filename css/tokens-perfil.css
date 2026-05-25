@@ -1,0 +1,7 @@
+:root{
+    --font-principal: 'Poppins', sans-serif;
+    --color-principal: rgb(255, 255, 255);
+    --border-principal: 8px;
+    --sombra-tarjeta: 5px 5px 5px rgb(180, 179, 179);
+    --color-boton: rgb(218, 119, 137);
+}
